@@ -1,0 +1,157 @@
+ @font-face{
+    font-family: myFont;
+     src: url(fonts/BungeeSpice-Regular.ttf); 
+    }
+
+     @font-face{
+        font-family: Font;
+        src: url(fonts/Kablammo-Regular-VariableFont_MORF.ttf); }
+
+        @font-face{
+          font-family: Font2;
+          src: url(fonts/Lobster-Regular.ttf);}
+          
+
+ h1{
+    font-family: myFont;
+    text-shadow: 2px 2px 2px black;
+}
+
+ h2{
+    font-family: myFont;
+    text-shadow: 2px 2px 2px black;
+} 
+
+
+.p2{
+    font-family:Font;
+    font-size: 20px;
+    color: white;
+    text-indent: 5%;
+}
+.h3{
+  font-family:Font2;
+  text-shadow: 2px 2px  grey;
+  font-size: 225%;
+  color: white;
+  
+}
+
+#one{
+  font-family: myFont;
+    text-shadow: 2px 2px 2px black;
+
+ }
+
+ #two{
+  font-family: myFont;
+    text-shadow: 2px 2px 2px black;     
+
+ }
+
+ #three{
+  font-family: myFont;
+    text-shadow: 2px 2px 2px black;     
+
+ }
+
+
+ #four{
+  font-family: myFont;
+    text-shadow: 2px 2px 2px black;  
+
+
+ }
+
+ #five{
+  font-family: myFont;
+    text-shadow: 2px 2px 2px black;  
+       
+
+ }
+
+ .p3{
+
+  font-family:Font;
+    font-size: 20px;
+    color: white;
+    text-indent: 5%;
+}
+
+.p4{
+  font-size: 150%;
+  color:orange;
+  text-indent: 5%;
+
+}
+
+a{
+  font-style: italic;
+  font-size: 200%;
+  
+  
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+ }
+ body{
+  font-family: arial;
+ }
+ .main{
+ 
+  margin: 2%;
+ }
+ 
+ .card{
+      width: 20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 2%;
+     }
+ 
+ .image img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   
+ 
+  
+  }
+ 
+ .title{
+  
+   text-align: center;
+   padding: 10px;
+   
+  }
+ 
+ h1{
+   font-size: 20px;
+  }
+ 
+ .des{
+   padding: 3px;
+   text-align: center;
+  
+   padding-top: 10px;
+         border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+ button{
+   margin-top: 40px;
+   margin-bottom: 10px;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding:10px;
+ }
+ button:hover{
+   background-color: black;
+   color: white;
+   transition: .5s;
+   cursor: pointer;
+ }
